@@ -1,0 +1,29 @@
+.video {
+    background: #eae019;
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+    font-family: Merriweather;
+    display: flex;
+    flex-direction: column;
+    color: #222;
+  
+    &:hover {
+      background: #fff600;
+    }
+  }
+  
+  .videoTitle {
+    font-weight: bold;
+  }
+  
+  .videoContent {
+    font-weight: 200;
+    line-height: 1.9;
+    flex: 1;
+  }
+  
+  .videoDate {
+    text-align: right;
+    font-size: 0.7em;
+  }
